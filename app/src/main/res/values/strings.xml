@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="get_started">Get Started</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="send_email">Send Email</string>
+    <string name="forgotten_your_password">Forgotten your password ?</string>
+    <string name="text">Enter your email address and we would send you a link to reset your password.</string>
+    <string name="checklist">Checklist</string>
+    <string name="text_email">we have send your reset password link on your resgisterd e-mail addres</string>
+    <string name="email">Email</string>
+</resources>

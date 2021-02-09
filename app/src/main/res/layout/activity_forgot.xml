@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_16dp"
+    tools:context=".ForgotActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrowback"
+        android:layout_marginTop="@dimen/_16dp"/>
+
+    <TextView
+        android:id="@+id/tv_forgotten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgotten_your_password"
+        android:textColor="#8BA849"
+        android:layout_marginTop="@dimen/_16dp"
+        android:textSize="@dimen/_40sp" />
+    <TextView
+        android:id="@+id/tv_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/text"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_20sp" />
+    <EditText
+        android:id="@+id/et_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25dp"
+        android:drawablePadding="@dimen/_20dp"
+        android:hint="@string/email"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/send_email"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>
